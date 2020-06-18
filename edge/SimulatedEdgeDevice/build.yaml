@@ -17,6 +17,6 @@ steps:
     containerregistrytype: 'Azure Container Registry'
     azureSubscriptionEndpoint: 'OTA-PRD-1268 (ac48a080-d793-4c8a-b9ed-b0088d9ff1ef)'
     azureContainerRegistry: '{"loginServer":"aachongiotregistry.azurecr.io", "id" : "/subscriptions/ac48a080-d793-4c8a-b9ed-b0088d9ff1ef/resourceGroups/rg-aachong/providers/Microsoft.ContainerRegistry/registries/aachongiotregistry"}'
-    templateFilePath: 'deployment.template.json'
+    templateFilePath: 'edge/SimulatedEdgeDevice/deployment.template.json'
     defaultPlatform: 'amd64'
     fillRegistryCredential: 'true'
