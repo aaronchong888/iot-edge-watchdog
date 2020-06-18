@@ -1,7 +1,7 @@
 # See https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/build/azure-iot-edge?view=azure-devops
 variables:
     azureSubscriptionEndpoint: Contoso
-    azureContainerRegistry: contoso.azurecr.io
+    azureContainerRegistry: aachongiotregistry.azurecr.io
 
 steps:    
 
